@@ -19,7 +19,7 @@ def old_user(username):
         
         currentdate=date.today()
         if len(todoData) == 0:
-            print(f"Hey there!! Welcome to TodoCli. Please Enter Your Name ")
+            print(f"Welcome to TodoCli. Please Enter Your Name ")
             todoData["Name"] = username
             todoData["Date"] = str(currentdate)
             
